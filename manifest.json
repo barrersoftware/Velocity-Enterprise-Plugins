@@ -1,21 +1,52 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-11-09T00:00:00Z",
+  "lastUpdated": "2025-11-10T00:56:00Z",
   "plugins": [
     {
-      "id": "example-dashboard",
-      "name": "Example Dashboard",
+      "id": "permission-management",
+      "name": "Permission Management",
       "type": "code",
       "version": "1.0.0",
-      "description": "Example plugin showing dashboard capabilities",
+      "description": "Create and manage custom permissions for role-based access control",
       "author": "Velocity Team",
-      "category": "Analytics",
-      "icon": "📊",
-      "downloadUrl": "https://example.com/plugins/example-dashboard.zip",
-      "checksum": "sha256:placeholder",
+      "category": "Identity & Access",
+      "icon": "🔐",
+      "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/permission-management/plugin.zip",
+      "checksum": "sha256:bb368e271089f0a325df301cff8895d486ba54c9f3ea84bc0e898f92542c85d9",
+      "requirements": {
+        "velocityVersion": ">=1.0.0"
+      }
+    },
+    {
+      "id": "role-management",
+      "name": "Role Management",
+      "type": "code",
+      "version": "1.0.0",
+      "description": "Create and assign roles with permissions to control user access",
+      "author": "Velocity Team",
+      "category": "Identity & Access",
+      "icon": "🎭",
+      "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/role-management/plugin.zip",
+      "checksum": "sha256:43cf2298ca1b3c53d0a3486a7bc25e1e60af87ac8cfa962a1acc0862264adc00",
+      "requirements": {
+        "velocityVersion": ">=1.0.0"
+      }
+    },
+    {
+      "id": "user-management",
+      "name": "User Management",
+      "type": "code",
+      "version": "1.0.0",
+      "description": "Create and manage users with Keycloak SSO integration",
+      "author": "Velocity Team",
+      "category": "Identity & Access",
+      "icon": "👥",
+      "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/user-management/plugin.zip",
+      "checksum": "sha256:444a0d6c4249e297151a2dccb51b91404488e0d435e0c24f5c08792ca6e05fff",
       "requirements": {
         "velocityVersion": ">=1.0.0"
       }
     }
   ]
 }
+
