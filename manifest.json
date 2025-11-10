@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-09T00:00:00Z",
+  "plugins": [
+    {
+      "id": "example-dashboard",
+      "name": "Example Dashboard",
+      "type": "code",
+      "version": "1.0.0",
+      "description": "Example plugin showing dashboard capabilities",
+      "author": "Velocity Team",
+      "category": "Analytics",
+      "icon": "📊",
+      "downloadUrl": "https://example.com/plugins/example-dashboard.zip",
+      "checksum": "sha256:placeholder",
+      "requirements": {
+        "velocityVersion": ">=1.0.0"
+      }
+    }
+  ]
+}
