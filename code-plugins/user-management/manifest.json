@@ -1,0 +1,22 @@
+{
+  "id": "user-management",
+  "name": "User Management",
+  "type": "code",
+  "version": "1.0.0",
+  "description": "Create and manage users with Keycloak SSO integration",
+  "author": "Velocity Team",
+  "category": "Identity & Access",
+  "icon": "👥",
+  "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/user-management/plugin.zip",
+  "checksum": "sha256:444a0d6c4249e297151a2dccb51b91404488e0d435e0c24f5c08792ca6e05fff",
+  "requirements": {
+    "velocityVersion": ">=1.0.0"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-11-10",
+      "changes": ["Initial release", "User provisioning to Keycloak", "Role assignment"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "role-management",
+  "name": "Role Management",
+  "type": "code",
+  "version": "1.0.0",
+  "description": "Create and assign roles with permissions to control user access",
+  "author": "Velocity Team",
+  "category": "Identity & Access",
+  "icon": "🎭",
+  "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/role-management/plugin.zip",
+  "checksum": "sha256:43cf2298ca1b3c53d0a3486a7bc25e1e60af87ac8cfa962a1acc0862264adc00",
+  "requirements": {
+    "velocityVersion": ">=1.0.0"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-11-10",
+      "changes": ["Initial release", "Role creation and assignment", "Permission integration"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "permission-management",
+  "name": "Permission Management",
+  "type": "code",
+  "version": "1.0.0",
+  "description": "Create and manage custom permissions for role-based access control",
+  "author": "Velocity Team",
+  "category": "Identity & Access",
+  "icon": "🔐",
+  "downloadUrl": "https://raw.githubusercontent.com/barrersoftware/Velocity-Enterprise-Plugins/main/code-plugins/permission-management/plugin.zip",
+  "checksum": "sha256:bb368e271089f0a325df301cff8895d486ba54c9f3ea84bc0e898f92542c85d9",
+  "requirements": {
+    "velocityVersion": ">=1.0.0"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-11-10",
+      "changes": ["Initial release", "Full CRUD for permissions", "Keycloak integration"]
+    }
+  ]
+}
